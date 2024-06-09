@@ -1,0 +1,58 @@
+body{
+    position: relative;
+    text-align: center;
+    background-color: rgb(233, 185, 233);
+}
+
+input{
+    height: 35px;
+    width: 300px;
+    font-style: italic;
+}
+
+#sorting{
+    height: 40px;
+    width: 60px;
+    position: relative;
+    right: 20px;
+}
+#add{
+    height: 35px;
+    width: 40px;
+    position: relative;
+    left: 20px;
+}
+
+#todo-list {
+    list-style-type: none; 
+    padding-left: 0; 
+    position: relative;
+    color: white;
+  }
+  
+h1{
+    color: white;
+    font-weight: bolder;
+    
+}
+ button{
+    background-color: rgb(179, 58, 179);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    
+ }
+
+ 
+
+ .checkbox {
+    transform: scale(0.4); 
+    
+ }
+ label {
+    bottom: 20px;
+}
+
+.item{
+    margin-right: 5px;
+}
